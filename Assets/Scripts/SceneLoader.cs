@@ -5,20 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void LoadStartMenu()
     {
-        
+        SceneManager.LoadScene("StartScene"); 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadGameScene()
     {
-        
-    }
-
-    public void LoadTargetScene()
-    {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Assess4"); 
     }
 }
