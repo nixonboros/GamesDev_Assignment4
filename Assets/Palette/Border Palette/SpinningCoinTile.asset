@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
-  m_Name: SpinningCoin
+  m_Name: SpinningCoinTile
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
   - {fileID: 1169311076, guid: a66b476ad86bf2e4480368bf76520601, type: 3}
@@ -21,8 +21,8 @@ MonoBehaviour:
   - {fileID: 1495705100, guid: a66b476ad86bf2e4480368bf76520601, type: 3}
   - {fileID: 1288276236, guid: a66b476ad86bf2e4480368bf76520601, type: 3}
   - {fileID: -1832122900, guid: a66b476ad86bf2e4480368bf76520601, type: 3}
-  m_MinSpeed: 6
-  m_MaxSpeed: 6
+  m_MinSpeed: 7
+  m_MaxSpeed: 7
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
