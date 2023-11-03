@@ -12,6 +12,6 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("Assess4"); 
+        SceneManager.LoadScene("GameScene"); 
     }
 }
